@@ -13,7 +13,7 @@ pipeline{
        steps{
        
           
-          bat "F:/Program Files (x86)/TRICENTIS/Tosca Testsuite/ToscaCommander/ToscaCI/Client/ToscaCIClient.exe  -m local"
+          bat " \"F:/Program Files (x86)/TRICENTIS/Tosca Testsuite/ToscaCommander/ToscaCI/Client/ToscaCIClient.exe"\  -m local"
                                    
        }
    
